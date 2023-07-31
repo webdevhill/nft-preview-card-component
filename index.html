@@ -2,32 +2,48 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
   <title>Frontend Mentor | NFT preview card component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css"><link rel="preconnect" href="https://fonts.googleapis.com">
 </head>
 <body>
-
-  Equilibrium #3429
-
-  Our Equilibrium collection promotes balance and calm.
-
-  0.041 ETH
-  3 days left
-  
-  Creation of Jules Wyvern
-
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+  <main>
+    <article class="product">
+      <div class="product__content">
+        <picture class="product__img--main">
+          <img src="./images/image-equilibrium.jpg" alt="Equilibrium logo">
+          <div class="hover-img"><img src="./images/icon-view.svg" alt="icon view"></div>
+          <!-- <img src="./images/icon-view.svg" alt="icon view"> -->
+        </picture>
+      <div class="product__copy">
+          <h1 class="product__header--title"> Equilibrium #3429</h1>
+          <p class="product__header--tag-line">Our Equilibrium collection promotes balance and calm.</p>
+        <ul class="flex-group">
+          <li class="flex-item">
+            <img class="flex-icon" src="/images/icon-ethereum.svg" alt="ethereium logo">
+            <p class="product__price"> 0.041 ETH</p>
+          </li>
+          <li class="flex-item">
+            <img  class="flex-icon"  src="./images/icon-clock.svg" alt="clock">
+            <p class="product__timer">3 days left</p>
+          </li>
+        </ul>
+        <hr>
+        <footer class="product__footer flex-group">
+          <picture class="product__footer--avatar">
+            <img src="./images/image-avatar.png" alt="avater">
+          </picture>
+          <p class="product__footer--credit">
+            <span class="product__footer--soft-blue">Creation of</span>
+            <span class="product__footer--white"> Jules Wyvern</span>
+          </p>
+        </footer>
+      </div>
+      </div>
+    </article>
+  </main>
 </body>
 </html>
