@@ -44,8 +44,8 @@ Users should be able to:
 
 ### What I learned
 
-I did review and compare code online to achieve the hover states on the article image with the cyan opacity.
+I did review and compared code online to achieve the hover states on the article image with the cyan opacity.
 
 ### Continued development
 
-I am fairly pleased with the use of bothgrid and flex to position elements.
+I am fairly pleased with the use of both grid and flex to position elements.
