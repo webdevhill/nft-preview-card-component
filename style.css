@@ -160,7 +160,6 @@ body {
 .product__footer--white:hover {
     color: var(--clr-primary-400);
     cursor: pointer;
-    transition: opacity 10s ease-in-out;
 }
 
 .product__header--tag-line {
