@@ -44,7 +44,7 @@ Users should be able to:
 
 ### What I learned
 
-I did review and compared code online to achieve the hover states on the article image with the cyan opacity.
+I did review and compared code online to achieve the hover states of the article image with the cyan overlay.
 
 ### Continued development
 
